@@ -6,7 +6,7 @@
   sumDigits(10.5)
     --> 6
 */
-
+ 
 function sumDigits() {}
 
 module.exports = sumDigits;
