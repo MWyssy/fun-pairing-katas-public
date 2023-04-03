@@ -7,6 +7,13 @@
     --> 6
 */
  
-function sumDigits() {}
+function sumDigits(number) {
+  const result = number
+    .toString()
+    .replace(/\D/, '')
+    .split('')
+    .reduce((sum, x) => sum + Number(x), 0)
+  return result;
+}
 
 module.exports = sumDigits;

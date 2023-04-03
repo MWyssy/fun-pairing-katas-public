@@ -32,3 +32,15 @@ const sumDigits = require('../katas/sum-digits');
   
   E.g. sumDigits(10.5) should output 6
 */
+
+describe('sumDigits functionality test', () => {
+  test('returns a number', () => {
+    expect(sumDigits(1)).toBe(1);
+  });
+  test('returns the sum of multiple digits', () => {
+    expect(sumDigits(12)).toBe(3);
+  });
+  test('return the sum of the digits of a non-integer', () => {
+    expect(sumDigits(1.2)).toBe(3);
+  })
+})
