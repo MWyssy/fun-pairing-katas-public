@@ -74,3 +74,6 @@ typings/
 
 # Serverless directories
 .serverless
+
+# node-modules
+node_modules
