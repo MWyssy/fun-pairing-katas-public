@@ -23,7 +23,7 @@ function range(length, start, step) {
   for (let i = startVal; i < ((length * stepVal) + startVal); i += stepVal) {
     result.push(i);
   }
-  console.log(result)
+  
   return result;
 }
 
